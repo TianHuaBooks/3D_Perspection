@@ -40,8 +40,8 @@ if __name__ == '__main__':
 
     # Define parameters
     hist_bins = 32
-    POS_NUM = 200 # number of poses per object
-    RETRIES = 20  # number of retries per capture
+    POS_NUM = 600 # number of poses per object
+    RETRIES = 10  # number of retries per capture
 
     for model_name in models:
         spawn_model(model_name)
